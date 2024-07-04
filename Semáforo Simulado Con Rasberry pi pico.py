@@ -26,9 +26,9 @@ def apagar():
   f.value(0)
   g.value(0)
 
-led_verde = Pin(20, Pin.OUT) # 14
-led_amarillo = Pin(19, Pin.OUT) # 15
-led_rojo = Pin(18, Pin.OUT) # 16
+led_verde = Pin(20, Pin.OUT) # 26
+led_amarillo = Pin(19, Pin.OUT) # 25
+led_rojo = Pin(18, Pin.OUT) # 24
 
 # se definen los pines del display como salida
 a = Pin(2, Pin.OUT) # 4
